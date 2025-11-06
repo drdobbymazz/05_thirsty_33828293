@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%=shopName%> - Survey Results</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Thank You for Completing Our Survey!</h1>
+    
+    <div class="main-container">
+        <h2>Your Survey Responses:</h2>
+        
+        <div style="text-align: left; padding: 20px;">
+            <p><strong>Name:</strong> <%= survey.first %> <%= survey.last %></p>
+            <p><strong>Email:</strong> <%= survey.email %></p>
+            <p><strong>Age:</strong> <%= survey.age %></p>
+            <p><strong>Preferred Drinks Category:</strong> <%= survey.category %></p>
+            <p><strong>Student Status:</strong> <%= survey.isStudent ? 'Yes' : 'No' %></p>
+        </div>
+    </div>
+</body>
+</html>

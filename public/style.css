@@ -1,0 +1,208 @@
+/*  Global Styles */
+
+/* Centers everything on the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Headings */
+
+/* Style for the main welcome heading (Used on all pages) */
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+/* Style for the sub-heading */
+h2 {
+    color: #187325; 
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+}
+
+/* Style for the instruction line below the heading */
+p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Registration Form Styles */
+
+/* Style for the form box */
+form {
+    background-color: #fff;
+    width: 350px; 
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: left; 
+}
+
+/* Style for each line of the form */
+.form-group {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 15px; 
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style for text and email input boxes */
+input[type="text"], 
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 60%; 
+    box-sizing: border-box; 
+}
+
+/* Style for the OK button */
+input[type="submit"] {
+    background-color: #187325; 
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+/* Button color when you hover over it */
+input[type="submit"]:hover {
+    background-color: #5a6268;
+}
+
+/* Main Shop Page List Styles */
+
+/* Box around the list of products */
+.main-container {
+    background-color: #fff;
+    width: 80%;
+    max-width: 600px;
+    padding: 30px 40px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+/* Removes default bullet points */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for each product line */
+li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #555;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+/* Highlight effect on product line */
+li:hover {
+    background-color: #e6ffe6; 
+    color: #187325;
+    cursor: pointer;
+}
+
+/* Search Form Styles */
+
+/* Style for the search form container */
+.search-form {
+    /* Uses similar box styling for consistency */
+    background-color: #fff;
+    width: 350px; 
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+/* Style for each search line */
+.search-group {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10px; 
+    color: #333;
+    font-weight: bold;
+    flex-direction: row;
+}
+
+/* Style for the search input boxes */
+.search-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 60%; 
+    box-sizing: border-box;
+    margin-left: auto;
+}
+
+/* Style for the search OK button */
+.search-form input[type="submit"] {
+    /* Aligns the button to the right of the form */
+    margin-left: auto; 
+    margin-top: 5px;
+    
+    /* Sanme OK button styles */
+    background-color: #187325; 
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 60px;
+}
+
+/* Button color when you hover over it */
+.search-form input[type="submit"]:hover {
+    background-color: #5a6268;
+}
+
+/* About Us Page Styles */
+
+/* Box around the About Us content */
+.about-content {
+    /* Reuses main-container style, slightly narrower */
+    background-color: #fff;
+    width: 80%;
+    max-width: 500px;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center; /* Center text inside the box for an About page */
+}
